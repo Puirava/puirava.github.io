@@ -1,0 +1,35 @@
+:root{
+    --white:#ffffff;
+}
+
+h1,h4 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+button {
+    margin-left: 45%;
+    text-align: center;
+    background-color: black;
+    color: var(--white);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: rgb(0, 0, 0);
+    
+}
+a[href^="./site"]{
+    color: rgb(146, 5, 5);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+a[href^="./index"]{
+    color: rgb(44, 44, 233);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#demo{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
